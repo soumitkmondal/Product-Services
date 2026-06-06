@@ -28,24 +28,5 @@ It provides modular product-related services with CDS-based data models and ODat
 1. cds init Product-Services --add java
 2. mvn clean spring-boot:run / mvn spring-boot:run
 
-+-------------------+
-|   Client (UI/Fiori)|
-+-------------------+
-          |
-          v
-+-------------------+
-|   srv (Services)  |
-|  - ProductService |
-+-------------------+
-          |
-          v
-+-------------------+
-|   db (CDS Models) |
-|  - Product        |
-|  - Category       |
-+-------------------+
-          |
-          v
-+-------------------+
-| Persistence Layer |
-+-------------------+
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/fa8bda6d-cf81-4b6c-a1cd-394286e093e3" />
+
